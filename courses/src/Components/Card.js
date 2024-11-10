@@ -23,7 +23,7 @@ function Card(props) {
    }
     let course = props.course;
     return (
-    <div className='w-[300px] bg-[#505459] rounded-ms overflow-hidden'>
+    <div className='w-[300px] bg-[#505459] rounded-xl overflow-hidden'>
          <div className='relative'>
             <img src= {course.image.url} />
            <div className='w-[30px] h-[30px] bg-white rounded-full absolute right-2 bottom-3
